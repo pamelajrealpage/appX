@@ -1,0 +1,52 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+h1.page-title {
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #dadcdd; }
+
+button:focus {
+  outline: none; }
+
+.btn {
+  padding: 10px 19px;
+  font-size: 17px;
+  line-height: 1.471;
+  border-radius: 6px;
+  border-style: none;
+  outline: none; }
+  .btn:active, .btn:hover, .btn:focus {
+    color: #fff;
+    outline: none !important; }
+
+.btn-blue {
+  color: #fff;
+  background-color: #308fe8; }
+  .btn-blue:active, .btn-blue:hover {
+    background-color: #1775ce; }
+
+* {
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease; }
+
+body {
+  font-family: 'Poppins', Helvetica, sans-serif;
+  background-color: #f4f4f4; }
+
+a:hover, a:active, a:focus {
+  text-decoration: none; }
+
+.thumbnail.tile > .instructions {
+  background-color: #f4f4f4;
+  padding: 40px 20px; }
+
+footer {
+  border-top: 1px solid #dadcdd;
+  padding: 20px 0 5px 0;
+  color: #888;
+  background-color: #fff;
+  font-size: 12px;
+  text-align: center; }
+
+/*# sourceMappingURL=base.css.map */
